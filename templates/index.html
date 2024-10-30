@@ -98,7 +98,7 @@
           method: 'POST',
           body: formData
         });
-
+        console.log(response)
         if (response.ok) {
           // Create a blob from the response
           const blob = await response.blob();
