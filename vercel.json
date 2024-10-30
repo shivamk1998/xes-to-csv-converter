@@ -1,5 +1,5 @@
 {
-  "version": "",
+  "version": 1,
   "builds": [{"src":"xestocsv.py", "use":"@vercel/python"}],
   "routes": [{"src":"/(.*)","dest":"xestocsv.py"}]
 }
