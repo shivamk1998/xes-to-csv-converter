@@ -10,6 +10,7 @@ CORS(app)
 
 @app.route('/convert', methods=['POST'])
 def convert():
+    return "hello World"
     if 'xes_file' not in request.files:
         return jsonify({"error": "No file part"}), 400
 
